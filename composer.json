@@ -1,0 +1,22 @@
+{
+    "name": "hasfoug/grampa",
+    "description": "Package provides functionality to install app in shop with checked grandfathered option.",
+    "authors": [
+        {
+            "name": "Bohdan Klochko",
+            "email": "bohdanklochko1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": "~5.5",
+        "ohmybrew/laravel-shopify": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hasfoug\\Grampa\\GrampaServiceProvider"
+            ]
+        }
+    }
+}
