@@ -10,7 +10,7 @@
     "require": {
         "php": ">=7.1.0",
         "laravel/framework": "~5.5",
-        "ohmybrew/laravel-shopify": "dev-master"
+        "ohmybrew/laravel-shopify": "^4.0"
     },
     "extra": {
         "laravel": {
