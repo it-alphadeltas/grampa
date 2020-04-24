@@ -6,7 +6,7 @@ Route::group(['middleware' => ['web']], function () {
      */
     Route::get(
         '/login-admin',
-        '\Hasfoug\Grampa\Controllers\AdminAuthController@index'
+        '\AlphaDeltas\Grampa\Controllers\AdminAuthController@index'
     )
     ->middleware('auth.grampa')
     ->name('login-admin');
@@ -17,7 +17,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::match(
         ['get', 'post'],
         '/authenticate-admin',
-        '\Hasfoug\Grampa\Controllers\AdminAuthController@authenticate'
+        '\AlphaDeltas\Grampa\Controllers\AdminAuthController@authenticate'
     )
     ->name('authenticate-admin');
 });

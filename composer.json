@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Hasfoug\\Grampa\\": "src/"
+            "AlphaDeltas\\Grampa\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hasfoug\\Grampa\\GrampaServiceProvider"
+                "AlphaDeltas\\Grampa\\GrampaServiceProvider"
             ]
         }
     }

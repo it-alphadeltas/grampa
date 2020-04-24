@@ -1,6 +1,6 @@
 <?php
 
-namespace Hasfoug\Grampa\Middleware;
+namespace AlphaDeltas\Grampa\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

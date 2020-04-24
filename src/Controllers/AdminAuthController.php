@@ -1,9 +1,9 @@
 <?php
 
-namespace Hasfoug\Grampa\Controllers;
+namespace AlphaDeltas\Grampa\Controllers;
 
 use App\Http\Controllers\Controller;
-use Hasfoug\Grampa\Traits\AdminAuthControllerTrait;
+use AlphaDeltas\Grampa\Traits\AdminAuthControllerTrait;
 
 class AdminAuthController extends Controller
 {

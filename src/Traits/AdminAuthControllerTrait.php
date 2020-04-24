@@ -1,6 +1,6 @@
 <?php
 
-namespace Hasfoug\Grampa\Traits;
+namespace AlphaDeltas\Grampa\Traits;
 
 use Illuminate\Support\Facades\Log;
 use OhMyBrew\ShopifyApp\Facades\ShopifyApp;

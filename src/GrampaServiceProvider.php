@@ -1,9 +1,9 @@
 <?php
 
-namespace Hasfoug\Grampa;
+namespace AlphaDeltas\Grampa;
 
 use Illuminate\Support\ServiceProvider;
-use Hasfoug\Grampa\Middleware\AuthGrampa;
+use AlphaDeltas\Grampa\Middleware\AuthGrampa;
 
 class GrampaServiceProvider extends ServiceProvider
 {
