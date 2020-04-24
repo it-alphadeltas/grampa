@@ -5,7 +5,7 @@ return [
      * Grandfathered installation route protection.
      * If true, will enable basic auth for that route.
      */
-    'protected' => env('GRAMPA_ROUTE_PROTECTED', false),
+    'protected' => env('GRAMPA_ROUTE_PROTECTED', true),
 
     /*
      * Basic auth credentials for grandfathered installation route.

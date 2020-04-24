@@ -7,7 +7,7 @@ This package extends ohmybrew package and provides you an opportunity to make gr
 Via Composer
 
 ``` bash
-$ composer require hasfoug/grampa
+$ composer require alphadeltas/grampa
 ```
 
 ## Usage
